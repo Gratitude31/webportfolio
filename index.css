@@ -1,0 +1,45 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+#landing {
+	background: linear-gradient(
+		rgba(0, 34, 65, 0.61),
+		rgba(0, 34, 65, 0.61)
+	),
+	url("./images/landing.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+#tools{
+	background: linear-gradient(
+		rgba(0, 34, 65, 0.61),
+		rgba(0, 34, 65, 0.61)
+	),
+
+#projects {
+	background: linear-gradient(
+		rgba(0, 34, 65, 0.61),
+		rgba(0, 34, 65, 0.61)
+	),
+	
+.card-img, .card-text {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card-img img {
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: cover;
+}
+
+.maps {
+	width: 1500px;
+	height: 1500px;
+}
